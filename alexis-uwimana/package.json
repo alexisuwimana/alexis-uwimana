@@ -1,16 +1,16 @@
 {
-  "homepage": "https://alexisuwimana.github.io/alexis-uwimana",
+  "homepage": "http://alexisuwimana.github.io/alexis-uwimana",
   "name": "alexis-uwimana",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "build": "^0.1.4",
+    "@fortawesome/fontawesome-free": "^5.8.2",
     "bulma": "^0.7.5",
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "^3.0.1"
+    "react-scripts": "3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,8 +34,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.8.2"
   }
 }
