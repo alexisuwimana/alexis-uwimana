@@ -12,13 +12,13 @@ const Home = () => (
             <img src={profile} className="profile-image" alt="My profile" />
           </div>
           <div className="column">
-            <h1 className="title is-1">I'M Alexis UWIMANA</h1>
-            <h3 className="title is-3">IT Mnager - 8 Years</h3>
-            <h3 className="title is-3">Learning Progrmming since October 2018 in ALC @ OpenClassroom</h3>
+            <h1 className="title is-1">Welcom to Alexis's profile</h1>
+            <h3 className="title is-3">IT manager for mor than - 8 Years</h3>
             <hr />
 
             <p className="about-me">
-              Developing ......
+              enjoys solvings problems with technlogy anb building
+              products.
             </p>
             <div className="columns">
               <div className="column">
@@ -40,13 +40,34 @@ const Home = () => (
             </div>
             <p className="social-icons">
               <a
-                href="https://github.com/alexisuwimana/"
+                href="https://github.com/alexisuwimana"
                 target="_blank"
                 className="social-icon"
                 rel="noopener noreferrer"
               >
                 <i className="fab fa-github" />
               </a>
+
+              <a
+                href="https://www.linkedin.com/in/alexis-uwimana-38381148/"
+                target="_blank"
+                className="social-icon"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-linkedin" />
+              </a>
+
+              
+              
+              <a
+                href="https://join.skype.com/invite/cTvWDUjPqJcz"
+                target="_blank"
+                className="social-icon"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-skype" />
+              </a>
+
               <a
                 href="https://twitter.com/alexisuwimana"
                 target="_blank"
@@ -55,6 +76,7 @@ const Home = () => (
               >
                 <i className="fab fa-twitter" />
               </a>
+
               <a
                 href="https://www.facebook.com/alexis.uwimana"
                 target="_blank"
@@ -63,6 +85,7 @@ const Home = () => (
               >
                 <i className="fab fa-facebook" />
               </a>
+
             </p>
           </div>
         </div>
