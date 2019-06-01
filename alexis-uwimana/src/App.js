@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+import 'bulma/css/bulma.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import {HashRouter, switch, Router } from 'react-router-dom';
 import './App.css';
+import NotFound from './components/NotFound/NotFound';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <HashRouter basename="/">
+        <switch>
+          <Router pathc>
+          
+          </Router>
+        </switch>
+      </HashRouter>
+
     </div>
   );
 }
